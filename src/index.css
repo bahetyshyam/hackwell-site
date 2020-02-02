@@ -584,6 +584,8 @@ video {
 
 .container {
   width: 100%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 @media (min-width: 640px) {
@@ -8344,6 +8346,14 @@ video {
 
 .z-auto {
   z-index: auto;
+}
+
+.hover\:scale-1\/10 {
+  transition: 100ms ease-in;
+}
+
+.hover\:scale-1\/10:hover {
+  transform: scale(1.1);
 }
 
 @media (min-width: 640px) {

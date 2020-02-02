@@ -3,7 +3,7 @@ const purgecss = require('@fullhuman/postcss-purgecss')({
   content: ['./src/**/*.js', './public/index.html'],
   defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || []
 });
-const tailwindcss = require('tailwindcss');
+const tailwindcss = require('tailwindcss')('./tailwind.config.js');
 
 module.exports = {
   plugins: [
