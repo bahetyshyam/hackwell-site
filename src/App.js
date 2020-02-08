@@ -8,9 +8,11 @@ import Register from './pages/Register';
 const App = () => {
   return (
     <Switch>
-      <Route path='/register' exact component={Register} />
-      <Route path='/code-of-conduct' exact component={CodeOfConduct} />
-      <Route path='/' exact component={Home} />
+      <div className='bg-gray-200'>
+        <Route path='/register' exact component={Register} />
+        <Route path='/code-of-conduct' exact component={CodeOfConduct} />
+        <Route path='/' exact component={Home} />
+      </div>
     </Switch>
   );
 };
