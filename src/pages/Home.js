@@ -18,8 +18,8 @@ const Home = () => {
       <Header home={true} />
       <main className='mt-6'>
         <About />
-        <Tracks />
         <Rules />
+        <Tracks />
         <Sponsors />
         <Faq />
         <Social />

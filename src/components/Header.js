@@ -5,15 +5,15 @@ const Header = ({ home = false }) => {
   const [isOpen, setIsOpen] = useState(false);
   const navs = [
     { link: 'about', name: 'About' },
-    { link: 'tracks', name: 'Tracks' },
     { link: 'rules', name: 'Rules' },
+    { link: 'tracks', name: 'Tracks' },
     { link: 'sponsors', name: 'Sponsors' },
     { link: 'faq', name: 'FAQ' }
   ];
 
   return (
     <header className='sticky top-0 px-2 py-2 z-10 -my-16'>
-      <div className='container relative flex items-center justify-between p-6 lg:px-16 rounded bg-white shadow-md'>
+      <div className='container relative flex items-center justify-between p-6 lg:px-16 rounded-lg bg-white shadow-md'>
         <a href='/'>
           <img
             className='h-10 lg:h-14'
@@ -70,8 +70,8 @@ const Header = ({ home = false }) => {
                     smooth={true}
                     duration={500}
                     onClick={() => setIsOpen(false)}
-                    className='cursor-pointer overflow-hidden mt-2 -mx-3 block px-3 py-2 font-medium tracking-wide uppercase text-gray-900 rounded hover:bg-gray-200 focus:outline-none lg:inline lg:mt-0 lg:mx-2 lg:px-2 lg:text-gray-600 lg:hover:text-gray-900 lg:hover:bg-blue-200'
-                    activeClass='lg:text-blue-700'
+                    className='cursor-pointer overflow-hidden mt-2 -mx-3 block px-3 py-2 tracking-wide uppercase font-medium text-gray-600 focus:outline-none lg:inline lg:mt-0 lg:mx-2 lg:px-2 lg:hover:text-gray-700'
+                    activeClass='text-blue-600 lg:border-b-2 lg:border-blue-600'
                   >
                     {nav.name}
                   </Link>
