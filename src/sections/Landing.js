@@ -7,7 +7,6 @@ const Landing = () => {
       // style={{
       //   backgroundImage: `url(${landingBg})`
       // }}
-      id='landing'
     >
       <div className='relative'>
         <img
