@@ -9,7 +9,7 @@ class Form extends Component {
         <form className="bg-white shadow rounded">
 
           {/* No of members div */}
-          <div className="px-6 py-2">
+          <div className="px-6 pb-2 pt-5">
             <label className="block text-black mb-2">
               No. of Members
             </label>
