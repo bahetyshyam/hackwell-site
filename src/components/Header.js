@@ -16,7 +16,7 @@ const Header = ({ home = false }) => {
       <div className='container relative flex items-center justify-between p-6 lg:px-16 rounded-lg bg-white shadow-md'>
         <a href='/'>
           <img
-            className='h-10 lg:h-14'
+            className='h-10 lg:h-14'  
             src='/img/logo.svg'
             alt="Hackwell's logo"
           />

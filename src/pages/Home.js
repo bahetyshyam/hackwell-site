@@ -23,6 +23,7 @@ const Home = () => {
         <Sponsors />
         <Faq />
         <Social />
+        <Social />
       </main>
       <Footer />
     </>
